@@ -1,0 +1,73 @@
+html {
+   background-color: rgb(134, 56, 134);
+   color: chartreuse;
+}
+
+body {
+   margin: 0;
+   display: flex;
+   align-items: center;
+}
+
+.main {
+   transform: translateX(80px);
+}
+
+#sidebar {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   background-color: rgb(129, 95, 95);
+   color: #a1dcc6;
+   height: 100vh;
+}
+
+#sidebar a {
+   color: darkkhaki;
+   padding: 10px;
+}
+
+#sidebar a:visited {
+   color: darkkhaki;
+   padding: 10px;
+}
+
+#table {
+   text-decoration: none;
+   background-color: chartreuse;
+   color: #8BEFF3;
+   margin: 10px;
+   border-radius: 8px;
+   border: 3px;
+   outline-color: red;
+   outline-width: 5px;
+   padding: 3px;
+}
+
+#table td {
+   border-radius: 100px;
+   background-color: black;
+   padding: 5px;
+   font-size: large;
+}
+
+#table td a:visited {
+   color: #8BEFF3;
+   background-color: black;
+}
+
+#Title {
+   background-color: black;
+   max-width: max-content;
+   padding-right: 10px;
+   padding-left: 10px;
+   border-radius: 8px;
+}
+
+#context {
+   background-color: black;
+   padding: 4px;
+   border-radius: 8px;
+}
