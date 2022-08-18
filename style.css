@@ -9,8 +9,36 @@ body {
    align-items: center;
 }
 
+main {
+    padding-bottom: 10px;
+}
+
+img {
+  border: 5px solid #555;
+  border-color: chartreuse;
+}
+
 .main {
-   transform: translateX(80px);
+   transform: translateX(120px);
+}
+
+.about-content {
+    background-color: black;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.about-content div {
+    padding: 5px;
+    margin: 5px;
+    border: 10px solid;
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: white;
 }
 
 #sidebar {
@@ -21,7 +49,7 @@ body {
    top: 0px;
    background-color: rgb(129, 95, 95);
    color: #a1dcc6;
-   height: 100vh;
+   height: 100%;
 }
 
 #sidebar a {
@@ -58,6 +86,11 @@ body {
    background-color: black;
 }
 
+#body {
+    border: 3px solid;
+    padding: 5px;
+}
+
 #Title {
    background-color: black;
    max-width: max-content;
@@ -70,4 +103,38 @@ body {
    background-color: black;
    padding: 4px;
    border-radius: 8px;
+}
+
+#home-pic {
+    width: 90px;
+    padding: 6px;
+    background-color: black;
+}   
+
+#con-details {
+    background-color: darkblue;
+}
+
+#con-details th {
+    background-color: black;
+    padding: 4px;
+}
+
+#con-details td {
+    border: 3px solid;
+    padding: 4px;
+    border-color: white;
+}
+
+#form {
+    margin: 5px;
+    border: 5px solid;
+}
+
+#form input, button {
+    margin: 5px;
+}
+
+#projects img {
+    width: 500px;
 }
